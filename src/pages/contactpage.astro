@@ -1,0 +1,38 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Container from "~/components/Container.astro";
+import Heading from "~/components/Heading.astro";
+import { Image, Picture } from "astro:assets";
+import Controller from "~/assets/images/controller.png";
+import {email} from "~/data/config.ts";
+---
+
+<Layout>
+	<Section>
+		<Container>
+				<div class="grid grid-cols-1 gap-8 lg:gap-16 xl:gap-24 lg:grid-cols-2">
+				<div>
+					<Heading >
+						<h2 slot="heading-title" class="h2 text-purple-900"">Contact</h2>
+					</Heading>
+
+					<p class="mt-10 mb-10">Questions or concerns? Reach out below.</p>
+					<a href={email.href} class="button button-purple">
+						Email Me
+					</a>
+
+					<p class="mt-10 mb-10">Looking for more of my work? Check out my portfolio here.</p>
+					<a href="/" class="button button-purple">
+						See Portfolio
+					</a>
+				</div>
+
+				<div>
+					<Image src={Controller} alt="Controller" class:list={"object-cover relative transform translate-x-1/4 translate-y-1/6"} />
+
+				</div>
+			</div>
+		</Container>
+	</Section>
+</Layout>

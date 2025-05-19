@@ -8,7 +8,7 @@ body {
 }
 
 body {
-	@apply h-full scroll-smooth font-sans text-gray-700;
+	@apply h-full scroll-smooth font-sans text-gray-950;
 }
 
 h1,
@@ -59,23 +59,27 @@ p {
 }
 
 .button-teal {
-	@apply bg-teal-500 hover:bg-teal-500/80 text-white focus-visible:outline-teal-500;
+	@apply bg-teal-500 hover:bg-teal-500/80 text-fuchsia-50 focus-visible:outline-teal-500;
 }
 
 .button-fuchsia {
-	@apply bg-fuchsia-500 hover:bg-fuchsia-500/80 text-white focus-visible:outline-fuchsia-500;
+	@apply bg-fuchsia-500 hover:bg-fuchsia-500/80 text-fuchsia-50 focus-visible:outline-fuchsia-500;
 }
 
 .button-white {
-	@apply bg-white text-gray-700 hover:bg-white/80 focus-visible:outline-white;
+	@apply bg-fuchsia-50 text-gray-950 hover:bg-fuchsia-50/80 focus-visible:outline-fuchsia-50;
+}
+
+.button-purple {
+	@apply bg-purple-900 hover:bg-purple-900/80 text-fuchsia-50 focus-visible:outline-purple-900;
 }
 
 .menu-item-highlighted.menu-item-highlighted {
-	@apply text-white bg-teal-500 px-4 rounded-full py-1.5 hover:bg-opacity-80 hover:text-white;
+	@apply text-fuchsia-50 bg-teal-500 px-4 rounded-full py-1.5 hover:bg-opacity-80 hover:text-fuchsia-50;
 }
 
 .menu-item-active.menu-item-highlighted {
-	@apply hover:text-white;
+	@apply hover:text-fuchsia-50;
 }
 
 .menu-item-active:not(.menu-item-highlighted) {
@@ -110,8 +114,9 @@ label {
 
 body,
 section.bg-white {
-	background-image: url('/pattern.jpg');
+	background-image: url('/patternwood.jpg');
 	background-repeat: repeat;
+	background-size: cover;
 }
 
 /* caveat-brush-regular - latin */

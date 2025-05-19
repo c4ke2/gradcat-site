@@ -4,19 +4,16 @@ export const menuMain = [
 		url: "/",
 	},
 	{
-		name: "About Us",
-		url: "/about-us",
+		name: "Games",
+		url: "/blogGames",
 	},
 	{
-		name: "Adopt",
-		url: "/cats",
-	},
-	{
-		name: "Blog",
-		url: "/blog",
+		name: "Assets",
+		url: "/blogAssets",
 	},
 	{
 		name: "Contact",
-		url: "/contact",
+		url: "/contactpage",
 	},
+
 ];

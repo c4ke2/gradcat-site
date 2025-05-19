@@ -1,7 +1,11 @@
-# humanstxt.org/Standard.html
 # This file is used to provide information about the people who have contributed to building the website.
 
 # DEVELOPER
+Name: Alyssa Gregorash
+Location: Canada
+Email: agregorashb@gmail.com
+
+# TEMPLATE DEVELOPER
 Name: Christian Gelici
 Company: WP Infusion
 Location: Netherlands, the
@@ -12,6 +16,3 @@ Email: info@wpinfusion.com
 # STACK
 Astro
 TailwindCSS
-
-# SITE
-Last update: 1-1-2025

@@ -1,6 +1,6 @@
 {
-  "name": "Pawstronaut",
-  "short_name": "Pawstronaut",
+  "name": "GraduationCat",
+  "short_name": "GraduationCat",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -16,6 +16,6 @@
     }
   ],
   "theme_color": "#a09be7",
-  "background_color": "#ffffff",
+  "background_color": "#fdf4ff",
   "display": "standalone"
 }

@@ -1,27 +1,14 @@
 // Global variables
 export const siteLang = "en-US";
-export const siteCurrency = "USD";
-export const siteDomain = "pawstronaut.com";
-export const siteName = "Pawstronaut";
-export const siteSlogan = "The best pet shelter in the galaxy!";
+export const siteCurrency = "CAD";
+export const siteDomain = "graduationcat.ca";
+export const siteName = "Graduation Cat";
+export const siteSlogan = "Gamer moment";
 export const themeColor = "#FF0000";
 
-export const phone = {
-	href: "tel:+123456789",
-	label: "(123) 456-789",
-};
-
 export const email = {
-	href: "mailto:info@pawstronaut.com",
-	label: "info@pawstronaut.com",
-};
-
-export const address = {
-	street: "1234 Space Street",
-	city: "Galaxy City",
-	zip: "12345",
-	state: "Milky Way",
-	country: "Space",
+	href: "mailto:&#x67;&#x72;&#x61;&#x64;&#x75;&#x61;&#x74;&#x69;&#x6F;&#x6E;&#x63;&#x61;&#x74;&#x67;&#x61;&#x6D;&#x65;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;",
+	label: "grad cat email",
 };
 
 export const socialMedia = {
@@ -41,18 +28,8 @@ export const socialMedia = {
 		icon: "instagram",
 	},
 	youtube: {
-		url: "https://youtube.com",
+		url: "https://www.youtube.com/@GraduationCatGame",
 		label: "YouTube",
 		icon: "youtube",
 	},
-};
-
-export const hours = {
-	monday: "9:00 - 17:00",
-	tuesday: "9:00 - 17:00",
-	wednesday: "9:00 - 17:00",
-	thursday: "9:00 - 17:00",
-	friday: "9:00 - 17:00",
-	saturday: "9:00 - 17:00",
-	sunday: "Closed",
 };
