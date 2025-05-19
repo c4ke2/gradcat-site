@@ -11,7 +11,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "graduationcat.ca",
+	site: "www.graduationcat.ca",
 	integrations: [
 		tailwind(),
 		alpinejs(),
